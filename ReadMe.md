@@ -2,8 +2,8 @@
 
 Below you’ll find instructions to copy (fork) this repository and set it up for your own experiments.
 
-* ## STEP 01 - **Setup your code and Live Site (with GitHub)**
-* ## STEP 02 - **Edit Your Code locally (with GitHub Desktop, VS Code and Local Preview plugin)**
+* **STEP 01 - Setup your code and Live Site** (with GitHub)
+* **STEP 02 - Edit Your Code locally** (with GitHub Desktop, VS Code and Local Preview plugin)
 
 ##
 
