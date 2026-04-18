@@ -5,11 +5,25 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+    <a-assets>
+        <img id="sky" src="assets/nostalgiasky.jpg">
+        <img id="grass" src="assets/grass.jpg">
+        <img id="watertoy" src="assets/watertoy.jpg">
+        <img id="furby" src="assets/furby.jpg">
+        <img id="ball" src="assets/bouncyball.jpg">
+        <a-asset-item id="sandbox" src="assets/turtlesandbox.obj"></a-asset-item>
+        <a-asset-item id="tama" src="assets/tama.obj"></a-asset-item>
+        <a-asset-item id="lps" src="assets/shorthair_standing.obj"></a-asset-item>
+    </a-assets>
+      
+      <a-box position="-3.5 0.8 -2.5" rotation="0 35 0" scale="1.5 1.5 1.5" src="#furby"></a-box>
+      <a-sphere position="-0.2 2 -8" radius="2" rotation="0 -90 0" src="#ball"></a-sphere>
+      <a-cylinder position="1 0.75 -2.8" rotation="0 160 0" height="3" radius="0.5" height="1.5" src="#watertoy"></a-cylinder> 
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="40" height="40" src="#grass"></a-plane>
+      <a-obj-model position="8 0.5 -5" rotation="-90 -50 0" scale="0.08 0.08 0.08" src="#sandbox" color="#1A6B0E"></a-obj-model>
+      <a-obj-model position="-3.5 2.5 -5" rotation="0 30 0" src="#tama" color="#29FFEA"></a-obj-model>
+      <a-obj-model position="-6 0.1 -2" rotation="-90 0 30" src="#lps" scale="0.08 0.08 0.08" color="#FFC7F5"></a-obj-model>
+      <a-sky src="#sky"></a-sky>
     </a-scene>
   </body>
 </html>
